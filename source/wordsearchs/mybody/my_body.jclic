@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="my_school" version="0.1.3">
+ <settings>
+  <title>My body</title>
+  <revision description="created" date="5/9/20" />
+  <descriptors level-codes="INF" />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="My body" />
+ </sequence>
+ <activities>
+  <activity class="@textGrid.WordSearch" name="My body" code="">
+   <description>
+    <p>HEAD   HAIR   CHEEKS   HANDS   NOSE   TEETH  </p>
+   </description>
+   <messages>
+    <cell border="false" type="initial">
+     <style />
+     <p>HEAD   HAIR   CHEEKS   HANDS   NOSE   TEETH</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>EXCELLENT ! :)</p>
+    </cell>
+    <cell type="finalError">
+     <style />
+     <p>TRY AGAIN ! :(</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xFF6600">
+     <image name="51212778-huellas-digitales-multicolores-con-los-colores-del-arco-iris.jpg" tiled="true" />
+     <counters time="false" actions="false" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <textGrid rows="7" columns="7" cellWidth="100.0" cellHeight="100.0" border="true">
+    <style borderStroke="1.6" markerStroke="2.7">
+     <font family="Arial" size="48" />
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>HEAD***</row>
+     <row>*******</row>
+     <row>HANDS**</row>
+     <row>**NOSE*</row>
+     <row>***HAIR</row>
+     <row>CHEEKS*</row>
+     <row>*TEETH*</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">HAIR</clue>
+    <clue id="1">HEAD</clue>
+    <clue id="2">HANDS</clue>
+    <clue id="3">NOSE</clue>
+    <clue id="4">CHEEKS</clue>
+    <clue id="5">TEETH</clue>
+   </clues>
+   <cells rows="3" cols="2" cellWidth="120.0" cellHeight="100.0" border="true" id="secondary">
+    <style borderStroke="0.7" markerStroke="2.7">
+     <font family="Arial" size="36" />
+     <color background="0xFFFFFF" inactive="0xFFFFFF" />
+     <gradient source="0xFFFFFF" dest="0xFFFFFF" angle="0" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell avoidOverlapping="true">
+     <p>HAIR</p>
+    </cell>
+    <cell>
+     <p>HEAD</p>
+    </cell>
+    <cell avoidOverlapping="true">
+     <p>HANDS</p>
+    </cell>
+    <cell>
+     <p>NOSE</p>
+    </cell>
+    <cell>
+     <p>CHEEKS</p>
+    </cell>
+    <cell>
+     <p>TEETH</p>
+    </cell>
+   </cells>
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="51212778-huellas-digitales-multicolores-con-los-colores-del-arco-iris.jpg" file="51212778-huellas-digitales-multicolores-con-los-colores-del-arco-iris.jpg" />
+ </mediaBag>
+</JClicProject>
+
