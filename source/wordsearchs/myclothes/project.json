@@ -1,0 +1,47 @@
+{
+  "title": "My clothes",
+  "date": "9/05/20",
+  "levelCodes": [
+    "INF"
+  ],
+  "levels": {
+    "es": "Infantil (3-6)"
+  },
+  "description": {
+    "es": ""
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "es"
+  ],
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "mainFile": "my_clothes.jclic",
+  "activities": 3,
+  "mediaFiles": 13,
+  "totalSize": 147166,
+  "files": [
+    "favicon-my_clothes.ico",
+    "favicon.ico",
+    "icon-192-my_clothes.png",
+    "icon-192.png",
+    "icon-72-my_clothes.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "my_clothes.jclic",
+    "my_clothes.jclic.js",
+    "my_school.jclic",
+    "my_school.jclic.js",
+    "myclothes-my_clothes.jpg",
+    "myclothes.jpg",
+    "project-cover-my_clothes.jpg",
+    "project-cover.jpg",
+    "project-thumb-my_clothes.jpg",
+    "project-thumb.jpg",
+    "project.json",
+    "set-of-school-objects-vector-18007167-resized2.jpg"
+  ]
+}
