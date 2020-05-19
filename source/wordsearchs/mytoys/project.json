@@ -1,0 +1,41 @@
+{
+  "title": "My toys",
+  "date": "9/05/20",
+  "levelCodes": [
+    "INF"
+  ],
+  "levels": {
+    "es": "Infantil (3-6)"
+  },
+  "description": {
+    "es": ""
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "es"
+  ],
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "mainFile": "mytoys.jclic",
+  "activities": 2,
+  "mediaFiles": 7,
+  "totalSize": 124471,
+  "files": [
+    "51212778-huellas-digitales-multicolores-con-los-colores-del-arco-iris.jpg",
+    "favicon.ico",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "my_school.jclic",
+    "my_school.jclic.js",
+    "mytoys-resized.jpg",
+    "mytoys.jclic",
+    "mytoys.jclic.js",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json"
+  ]
+}
